@@ -1,0 +1,48 @@
+#q1, #q2, #q3, #q4, #q5, #done, #high-scores {
+    display:none;
+}
+
+.h1 {
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    display:block;
+}
+
+
+.left {
+    font-size:smaller;
+    font-weight: normal;
+    float:left;
+    display: inline-block;
+    padding: 30px;
+}
+
+.right{
+    font-size:smaller;
+    font-weight: normal;
+    float:right;
+    display: inline-block;
+    padding: 30px;
+}
+
+#intro {
+    display: block;
+}
+
+.p {
+    font-size:medium;
+    font-weight:normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.btn {
+    color: white;
+    background-color: purple;
+    text-align: center;
+    display: inline-block;
+}

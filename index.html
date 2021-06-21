@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="left">
+        <h2 id="view"><a href="" id="view-high-score-link">View high scores</a></h2>
+    </div>
+    <div class="right">
+        <h2 id="time">Time</h2>
+    </div>
+    </header>
+ <br></br>
+ <br></br>
+ <br></br>
+
+    <main >
+    <div id="intro">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+            answers
+            will penalize your score/time by ten seconds!</p>
+        <div class="button-start">
+            <button class="btn" id="start-quiz" type="button">Start Quiz </button>
+        </div>
+        </div>
+
+        <div class="questions" id="questions">
+            <div id="q1">
+                <h1>Commonly used data types DO NOT include:</h1>
+
+                <button class="btn" id="q1answer1" type="button">1. strings</button>
+                <button class="btn" id="q1answer2" type="button">2. booleans</button>
+                <button class="btn" id="q1answer3" type="button">3. alerts</button>
+                <button class="btn" id="q1answer4" type="button">4. numbers</button>
+            </div>
+
+            <div id="q2">
+                <h1>The condition in an if / else statement is enclosed with ________.</h1>
+                <button class="btn" id="q2answer1" type="button">1. quotes</button>
+                <button class="btn" id="q2answer2" type="button">2. curly brackets</button>
+                <button class="btn" id="q2answer3" type="button">3. parenthesis</button>
+                <button class="btn" id="q2answer4" type="button">4. square brackets</button>
+
+                <div id="question1AnswerCorrect">
+                </div>
+            </div>
+
+            <div id="q3">
+                <h1>Arrays in JavaScript can be used to store _______.</h1>
+                <button class="btn" id="q3answer1" type="button">1. numbers and strings</button>
+                <button class="btn" id="q3answer2" type="button">2. other arrays</button>
+                <button class="btn" id="q3answer3" type="button">3. booleans</button>
+                <button class="btn" id="q3answer4" type="button">4. all of the above</button>
+
+                <div id="question2AnswerCorrect">
+                </div>
+            </div>
+
+            <div id="q4">
+                <h1>String values must be enclosed within ________ when being assigned to variables</h1>
+                <button class="btn" id="q4answer1" type="button">1. commas</button>
+                <button class="btn" id="q4answer2" type="button">2. curly brackets</button>
+                <button class="btn" id="q4answer3" type="button">3. quotes</button>
+                <button class="btn" id="q4answer4" type="button">4. parenthesis</button>
+
+                <div id="question3AnswerCorrect">
+                </div>
+            </div>
+
+            <div id="q5">
+                <h1>A very useful tool used during development and debugging for printing content to the debugger is:
+                </h1>
+                <button class="btn" id="q5answer1" type="button">1. JavaScript</button>
+                <button class="btn" id="q5answer2" type="button">2. terminal/bash</button>
+                <button class="btn" id="q5answer3" type="button">3. for loops</button>
+                <button class="btn" id="q5answer4" type="button">4. console.log</button>
+
+                <div id="question4AnswerCorrect">
+                </div>
+            </div>
+        </div>
+
+        <div id="done">
+            <h1>All done!</h1>
+            <p class="final-score">Your final score is</p>
+            <form id="initials">
+                <input type="text" name="" id="input-initials" class="initials-input" placeholder="" />
+                <button class="btn" id="submit-initials" type="submit">Submit</button>
+            </form>
+
+            <div id="question5AnswerCorrect">
+            </div>
+        </div>
+
+        <div id="high-scores">
+            <h1>High scores</h1>
+            <ul id="high-score-list">
+               
+            </ul>
+         
+            <button class="btn" id="go-back" type="submit">Go back</button>
+            <button class="btn" id="clear" type="reset">Clear high scores</button>
+        </div>
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
