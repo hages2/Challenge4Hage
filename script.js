@@ -60,7 +60,8 @@ var questionOneHandler = function (event) {
         document.getElementById("question1AnswerCorrect").innerHTML = "WRONG!";
 
         //NEED TO SUBTRACT TIME
-        timeLeft - 10;
+        timeLeft = timeLeft - 10;
+
     }
 
     //hide question 1
@@ -79,7 +80,7 @@ var questionTwoHandler = function (event) {
         document.getElementById("question2AnswerCorrect").innerHTML = "WRONG!";
 
         //NEED TO SUBTRACT TIME
-        timeLeft - 10;
+        timeLeft = timeLeft - 10;
     }
 
     //hide question 2
@@ -98,7 +99,7 @@ var questionThreeHandler = function (event) {
         document.getElementById("question3AnswerCorrect").innerHTML = "WRONG!";
 
         //NEED TO SUBTRACT TIME
-        timeLeft - 10;
+        timeLeft = timeLeft - 10;
     }
 
     //hide question 3
@@ -117,7 +118,7 @@ var questionFourHandler = function (event) {
         document.getElementById("question4AnswerCorrect").innerHTML = "WRONG!";
 
         //NEED TO SUBTRACT TIME
-        timeLeft - 10;
+        timeLeft = timeLeft - 10;
     }
 
     //hide question 4
@@ -136,7 +137,7 @@ var questionFiveHandler = function (event) {
         document.getElementById("question5AnswerCorrect").innerHTML = "WRONG!";
 
         //NEED TO SUBTRACT TIME
-        timeLeft - 10;
+        timeLeft = timeLeft - 10;
     }
 
     clearInterval(timeInterval);
